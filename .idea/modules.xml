@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ThreadPoolSample.iml" filepath="$PROJECT_DIR$/ThreadPoolSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pmthreadpool/app.iml" filepath="$PROJECT_DIR$/pmthreadpool/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\MyProjects\SimpleThreadLibrary\simplethreadpool\pmthreadpool\app.iml" filepath="C:\MyProjects\SimpleThreadLibrary\simplethreadpool\pmthreadpool\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmthreadpool/pmthreadpool.iml" filepath="$PROJECT_DIR$/pmthreadpool/pmthreadpool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplethreadpool.iml" filepath="$PROJECT_DIR$/simplethreadpool.iml" />
     </modules>
   </component>
 </project>

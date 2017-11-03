@@ -4,12 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.kp.threadpoolsample.MainActivity">
+    tools:context="com.wacmob.pramod.memoryapp.MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,17 +14,20 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-        <EditText
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editTextNew"
-            android:layout_margin="16dp"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="ok"
-        android:id="@+id/buttonNew"/>
+            android:id="@+id/buttonTry"
+            android:text="Start"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonStop"
+            android:text="Stop"/>
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

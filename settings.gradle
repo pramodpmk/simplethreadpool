@@ -1,1 +1,1 @@
-include ':pmthreadpool'
+include ':pmthreadpool', ':app'
